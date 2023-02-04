@@ -1,0 +1,299 @@
+ERROR - 2023-01-31 06:03:42 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:03:42 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:04:17 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:04:17 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:04:47 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:04:47 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:06:36 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:06:36 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:06:38 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:06:38 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:06:39 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:06:39 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:06:44 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:06:44 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:14:30 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:14:30 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:37:24 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:37:24 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:41:53 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:41:53 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:46:33 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:46:33 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:50:00 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(33): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Grafik_provinsi.php(20): App\Models\Grafik_model->grafik_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Grafik_provinsi->grafik_provinsi_json()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_provinsi))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:50:00 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 35.
+ 1 APPPATH\Controllers\Grafik_provinsi.php(20): App\Models\Grafik_model->grafik_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Grafik_provinsi->grafik_provinsi_json()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_provinsi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 06:50:00 --> file_get_contents(http://localhost/Event/grafik_provinsi/grafik_provinsi_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_provinsi.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Event/grafik_provinsi/grafik_provinsi_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_provinsi.php', 51, [...])
+ 2 APPPATH\Views\grafik_provinsi.php(51): file_get_contents('http://localhost/Event/grafik_provinsi/grafik_provinsi_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_provinsi.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('grafik_provinsi', [], true)
+ 6 APPPATH\Controllers\Grafik_provinsi.php(15): view('grafik_provinsi', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Grafik_provinsi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_provinsi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:51:06 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select c.provin...', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select c.provin...')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select c.provin...')
+#3 C:\xampp\htdocs\Event\app\Models\Grafik_model.php(39): CodeIgniter\Database\BaseConnection->query('select c.provin...')
+#4 C:\xampp\htdocs\Event\app\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:51:06 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 41.
+ 1 APPPATH\Controllers\Dashboard.php(14): App\Models\Grafik_model->grafik_data_provinsi_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 06:55:38 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select a.nim,a....', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select a.nim,a....')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select a.nim,a....')
+#3 C:\xampp\htdocs\Event\app\Models\Mahasiswa_model.php(13): CodeIgniter\Database\BaseConnection->query('select a.nim,a....')
+#4 C:\xampp\htdocs\Event\app\Controllers\Mahasiswa.php(20): App\Models\Mahasiswa_model->data_mahasiswa_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->data_mahasiswa_json()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 06:55:38 --> Call to a member function getResult() on bool
+in APPPATH\Models\Mahasiswa_model.php on line 19.
+ 1 APPPATH\Controllers\Mahasiswa.php(20): App\Models\Mahasiswa_model->data_mahasiswa_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->data_mahasiswa_json()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:02:15 --> mysqli_sql_exception: Unknown column 'c.provinsi' in 'field list' in C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select a.nim,a....', 0)
+#1 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select a.nim,a....')
+#2 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select a.nim,a....')
+#3 C:\xampp\htdocs\Event\app\Models\Mahasiswa_model.php(13): CodeIgniter\Database\BaseConnection->query('select a.nim,a....')
+#4 C:\xampp\htdocs\Event\app\Controllers\Mahasiswa.php(20): App\Models\Mahasiswa_model->data_mahasiswa_json()
+#5 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->data_mahasiswa_json()
+#6 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\xampp\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 07:02:15 --> Call to a member function getResult() on bool
+in APPPATH\Models\Mahasiswa_model.php on line 19.
+ 1 APPPATH\Controllers\Mahasiswa.php(20): App\Models\Mahasiswa_model->data_mahasiswa_json()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->data_mahasiswa_json()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

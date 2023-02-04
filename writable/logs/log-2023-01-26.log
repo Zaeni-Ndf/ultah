@@ -1,0 +1,45 @@
+CRITICAL - 2023-01-26 02:20:37 --> Invalid file: grafik_agama_1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_agama_1.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama_1', [], true)
+ 3 APPPATH\Controllers\Grafik_agama_1.php(15): view('grafik_agama_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama_1->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama_1))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 02:46:22 --> Invalid file: grafik_gender_1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_gender_1.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_gender_1', [], true)
+ 3 APPPATH\Controllers\Grafik_gender_1.php(15): view('grafik_gender_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_gender_1->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_gender_1))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:27:57 --> Invalid file: grafik_provinsi_1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_provinsi_1.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_provinsi_1', [], true)
+ 3 APPPATH\Controllers\Grafik_provinsi_1.php(15): view('grafik_provinsi_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_provinsi_1->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_provinsi_1))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:08:02 --> Invalid file: grafik_provinsi_1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_provinsi_1.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_provinsi_1', [], true)
+ 3 APPPATH\Controllers\Grafik_provinsi_1.php(15): view('grafik_provinsi_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_provinsi_1->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_provinsi_1))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:27:13 --> Invalid file: grafik_prodi_1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_prodi_1.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_prodi_1', [], true)
+ 3 APPPATH\Controllers\Grafik_prodi_1.php(15): view('grafik_prodi_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_prodi_1->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_prodi_1))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

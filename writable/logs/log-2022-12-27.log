@@ -1,0 +1,49 @@
+CRITICAL - 2022-12-27 06:17:12 --> Use of undefined constant jumlah - assumed 'jumlah' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Grafik_kelurahan.php on line 30.
+ 1 APPPATH\Controllers\Grafik_kelurahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant jumlah - assumed \'jumlah\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Grafik_kelurahan.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_kelurahan->grafik_kelurahan_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kelurahan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:17:18 --> Use of undefined constant jumlah - assumed 'jumlah' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Grafik_kelurahan.php on line 30.
+ 1 APPPATH\Controllers\Grafik_kelurahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant jumlah - assumed \'jumlah\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Grafik_kelurahan.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_kelurahan->grafik_kelurahan_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kelurahan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:17:18 --> file_get_contents(http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_kelurahan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_kelurahan.php', 48, [...])
+ 2 APPPATH\Views\grafik_kelurahan.php(48): file_get_contents('http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_kelurahan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_kelurahan', [], true)
+ 6 APPPATH\Controllers\Grafik_kelurahan.php(15): view('grafik_kelurahan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_kelurahan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:17:29 --> Use of undefined constant jumlah - assumed 'jumlah' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Grafik_kelurahan.php on line 30.
+ 1 APPPATH\Controllers\Grafik_kelurahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant jumlah - assumed \'jumlah\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Grafik_kelurahan.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_kelurahan->grafik_kelurahan_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kelurahan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:17:29 --> file_get_contents(http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_kelurahan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_kelurahan.php', 48, [...])
+ 2 APPPATH\Views\grafik_kelurahan.php(48): file_get_contents('http://localhost/Demografi/grafik_kelurahan/grafik_kelurahan_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_kelurahan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_kelurahan', [], true)
+ 6 APPPATH\Controllers\Grafik_kelurahan.php(15): view('grafik_kelurahan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_kelurahan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

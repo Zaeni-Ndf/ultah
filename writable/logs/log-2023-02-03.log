@@ -1,0 +1,159 @@
+CRITICAL - 2023-02-03 08:24:01 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:24:02 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:24:25 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:24:30 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:24:58 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:25:11 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:25:13 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:27:09 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 08:27:14 --> Unknown database 'db_event'
+in APPPATH\Views\dashboard.php on line 4.
+ 1 APPPATH\Views\dashboard.php(4): mysqli_connect('localhost', 'root', 'C:\\xampp\\htdocs\\uas_gipari', 'db_event')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 08:46:40 --> mysqli_sql_exception: Duplicate entry '11000309' for key 'PRIMARY' in C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\htdocs\uas_gipari\app\Models\Mahasiswa_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\uas_gipari\app\Controllers\Mahasiswa.php(88): App\Models\Mahasiswa_model->pro_add(Array)
+#6 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->pro_add()
+#7 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\uas_gipari\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uas_gipari\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-03 21:52:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_nadip' in C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_nadip', 3306, '', 0)
+#1 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\uas_nadip\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\uas_nadip\app\Controllers\Home.php(24): App\Models\User_model->login('nadip', 'nadip')
+#8 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#9 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uas_nadip\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_nadip' in C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\uas_nadip\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\uas_nadip\app\Controllers\Home.php(24): App\Models\User_model->login('nadip', 'nadip')
+#7 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\uas_nadip\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\uas_nadip\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-03 21:52:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_nadip'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tab_user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(24): App\Models\User_model->login('nadip', 'nadip')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

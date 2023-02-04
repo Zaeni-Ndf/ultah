@@ -1,0 +1,36 @@
+CRITICAL - 2023-01-01 05:26:38 --> syntax error, unexpected end of file
+in APPPATH\Views\penduduk_edit.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penduduk_edit', [], true)
+ 3 APPPATH\Controllers\Penduduk.php(109): view('penduduk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penduduk->edit('111')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-01 05:52:15 --> syntax error, unexpected end of file
+in APPPATH\Views\penduduk_edit.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penduduk_edit', [], true)
+ 3 APPPATH\Controllers\Penduduk.php(109): view('penduduk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penduduk->edit('112')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-01 06:01:00 --> syntax error, unexpected end of file
+in APPPATH\Views\penduduk_edit.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penduduk_edit', [], true)
+ 3 APPPATH\Controllers\Penduduk.php(109): view('penduduk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penduduk->edit('111')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-01 06:01:00 --> syntax error, unexpected end of file
+in APPPATH\Views\penduduk_edit.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penduduk_edit', [], true)
+ 3 APPPATH\Controllers\Penduduk.php(109): view('penduduk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penduduk->edit('111')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,26 @@
+ERROR - 2023-01-09 05:50:35 --> mysqli_sql_exception: Duplicate entry '142' for key 'PRIMARY' in C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\pem.web\htdocs\Event\app\Models\Mahasiswa_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\pem.web\htdocs\Event\app\Controllers\Mahasiswa.php(88): App\Models\Mahasiswa_model->pro_add(Array)
+#6 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->pro_add()
+#7 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\pem.web\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-09 06:07:31 --> mysqli_sql_exception: Duplicate entry '255' for key 'PRIMARY' in C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp\pem.web\htdocs\Event\app\Models\Mahasiswa_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\pem.web\htdocs\Event\app\Controllers\Mahasiswa.php(88): App\Models\Mahasiswa_model->pro_add(Array)
+#6 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->pro_add()
+#7 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\pem.web\htdocs\Event\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\pem.web\htdocs\Event\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

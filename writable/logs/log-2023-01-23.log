@@ -1,0 +1,120 @@
+CRITICAL - 2023-01-23 00:19:01 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:20:45 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:23:35 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:23:37 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:23:38 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:23:39 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:23:40 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:24:26 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:26:21 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:26:22 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:26:23 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:26:24 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:26:25 --> Cannot call constructor
+in APPPATH\Controllers\Grafik_agama_1.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Grafik_agama_1->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:34:12 --> file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_agama_1.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_agama_1.php', 168, [...])
+ 2 APPPATH\Views\grafik_agama_1.php(168): file_get_contents('http://localhost/Event/grafik_agama_1/grafik_agama_1_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama_1.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama_1', [], true)
+ 6 APPPATH\Controllers\Grafik_agama_1.php(15): view('grafik_agama_1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama_1->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama_1))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:36:38 --> file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_agama_1.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_agama_1.php', 66, [...])
+ 2 APPPATH\Views\grafik_agama_1.php(66): file_get_contents('http://localhost/Event/grafik_agama_1/grafik_agama_1_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama_1.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama_1', [], true)
+ 6 APPPATH\Controllers\Grafik_agama_1.php(15): view('grafik_agama_1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama_1->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama_1))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 00:36:46 --> file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_agama_1.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Event/grafik_agama_1/grafik_agama_1_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_agama_1.php', 66, [...])
+ 2 APPPATH\Views\grafik_agama_1.php(66): file_get_contents('http://localhost/Event/grafik_agama_1/grafik_agama_1_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama_1.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama_1', [], true)
+ 6 APPPATH\Controllers\Grafik_agama_1.php(15): view('grafik_agama_1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama_1->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama_1))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

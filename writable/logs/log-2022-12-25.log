@@ -1,0 +1,305 @@
+ERROR - 2022-12-25 08:10:26 --> mysqli_sql_exception: Unknown column 'd.id' in 'on clause' in C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select b.agama,...', 0)
+#1 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select b.agama,...')
+#2 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select b.agama,...')
+#3 C:\xampp\pem.web\htdocs\Demografi\app\Models\Grafik_model.php(17): CodeIgniter\Database\BaseConnection->query('select b.agama,...')
+#4 C:\xampp\pem.web\htdocs\Demografi\app\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+#5 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+#6 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+#7 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\pem.web\htdocs\Demografi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-25 08:10:26 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 19.
+ 1 APPPATH\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:10:27 --> file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_agama.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_agama.php', 51, [...])
+ 2 APPPATH\Views\grafik_agama.php(51): file_get_contents('http://localhost/Demografi/grafik_agama/grafik_agama_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama', [], true)
+ 6 APPPATH\Controllers\Grafik_agama.php(15): view('grafik_agama', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-25 08:10:32 --> mysqli_sql_exception: Unknown column 'd.id' in 'on clause' in C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select b.agama,...', 0)
+#1 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select b.agama,...')
+#2 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select b.agama,...')
+#3 C:\xampp\pem.web\htdocs\Demografi\app\Models\Grafik_model.php(17): CodeIgniter\Database\BaseConnection->query('select b.agama,...')
+#4 C:\xampp\pem.web\htdocs\Demografi\app\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+#5 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+#6 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+#7 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\pem.web\htdocs\Demografi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-25 08:10:32 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 19.
+ 1 APPPATH\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:10:32 --> file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_agama.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_agama.php', 51, [...])
+ 2 APPPATH\Views\grafik_agama.php(51): file_get_contents('http://localhost/Demografi/grafik_agama/grafik_agama_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama', [], true)
+ 6 APPPATH\Controllers\Grafik_agama.php(15): view('grafik_agama', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-25 08:10:55 --> mysqli_sql_exception: Unknown column 'd.id' in 'on clause' in C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select b.agama,...', 0)
+#1 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select b.agama,...')
+#2 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select b.agama,...')
+#3 C:\xampp\pem.web\htdocs\Demografi\app\Models\Grafik_model.php(17): CodeIgniter\Database\BaseConnection->query('select b.agama,...')
+#4 C:\xampp\pem.web\htdocs\Demografi\app\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+#5 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+#6 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+#7 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\pem.web\htdocs\Demografi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-25 08:10:55 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 19.
+ 1 APPPATH\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:10:55 --> file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_agama.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_agama.php', 51, [...])
+ 2 APPPATH\Views\grafik_agama.php(51): file_get_contents('http://localhost/Demografi/grafik_agama/grafik_agama_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama', [], true)
+ 6 APPPATH\Controllers\Grafik_agama.php(15): view('grafik_agama', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-25 08:12:28 --> mysqli_sql_exception: Unknown column 'd.id' in 'on clause' in C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select b.agama,...', 0)
+#1 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select b.agama,...')
+#2 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select b.agama,...')
+#3 C:\xampp\pem.web\htdocs\Demografi\app\Models\Grafik_model.php(17): CodeIgniter\Database\BaseConnection->query('select b.agama,...')
+#4 C:\xampp\pem.web\htdocs\Demografi\app\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+#5 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+#6 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+#7 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\pem.web\htdocs\Demografi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-25 08:12:28 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 19.
+ 1 APPPATH\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:12:28 --> file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_agama.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_agama.php', 51, [...])
+ 2 APPPATH\Views\grafik_agama.php(51): file_get_contents('http://localhost/Demografi/grafik_agama/grafik_agama_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama', [], true)
+ 6 APPPATH\Controllers\Grafik_agama.php(15): view('grafik_agama', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-25 08:15:00 --> mysqli_sql_exception: Unknown column 'd.id' in 'on clause' in C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select b.agama,...', 0)
+#1 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select b.agama,...')
+#2 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select b.agama,...')
+#3 C:\xampp\pem.web\htdocs\Demografi\app\Models\Grafik_model.php(17): CodeIgniter\Database\BaseConnection->query('select b.agama,...')
+#4 C:\xampp\pem.web\htdocs\Demografi\app\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+#5 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+#6 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+#7 C:\xampp\pem.web\htdocs\Demografi\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\pem.web\htdocs\Demografi\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-25 08:15:00 --> Call to a member function getResult() on bool
+in APPPATH\Models\Grafik_model.php on line 19.
+ 1 APPPATH\Controllers\Grafik_agama.php(20): App\Models\Grafik_model->grafik_agama_json()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->grafik_agama_json()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:15:00 --> file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+
+in APPPATH\Views\grafik_agama.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_agama/grafik_agama_json): failed to open stream: HTTP request failed! HTTP/1.0 500 Internal Server Error
+', 'APPPATH\\Views\\grafik_agama.php', 51, [...])
+ 2 APPPATH\Views\grafik_agama.php(51): file_get_contents('http://localhost/Demografi/grafik_agama/grafik_agama_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_agama.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_agama', [], true)
+ 6 APPPATH\Controllers\Grafik_agama.php(15): view('grafik_agama', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_agama->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_agama))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:20:48 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:21:34 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:21:41 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:23:16 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:24:46 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:26:48 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:26:55 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:28:12 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:32:00 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 08:33:18 --> file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_pendapatan.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_pendapatan.php', 51, [...])
+ 2 APPPATH\Views\grafik_pendapatan.php(51): file_get_contents('http://localhost/Demografi/grafik_pendapatan/grafik_pendapatam_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_pendapatan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('grafik_pendapatan', [], true)
+ 6 APPPATH\Controllers\Grafik_pendapatan.php(15): view('grafik_pendapatan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Grafik_pendapatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_pendapatan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
